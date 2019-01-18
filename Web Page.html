@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>Web Page</title>
+	<style>
+		* {
+ 			 box-sizing: border-box;
+		  }
+
+		.Header {
+  		padding: 9px;
+  		text-align: center;
+  		background-color: black;
+  		color: white;
+		}
+
+		
+		.leftcolumnHeader {
+			font-size: 30px;
+  		text-align: center;
+  		background-color: red;
+  		color: white;
+		}
+
+		.leftcolumn
+		{
+			height: 230px;
+			float: left;
+			width: 70%;	
+			background-color: pink;
+			text-align: left;
+			padding:0px;
+		}
+
+		.rightcolumnHeader {
+		font-size: 30px;
+  		text-align: center;
+  		background-color: red;
+  		color: white;
+		}
+
+		.rightcolumn
+		{
+			width: 30%;
+			height: 230px;
+			color: white;
+			background-color: gray;
+			float: left; 
+		}
+
+		.left
+		{
+			float: left;
+			background-color:orange;
+			width:50%
+			height:200px;
+			padding:0px;
+		}
+
+		.right
+		{
+			padding:0px;
+			width:50%;
+			height:150px;
+			float: right;
+			text-align: center;
+			background-color:blue;
+		}
+
+		button
+		{
+  			margin:auto;
+  			display:block;
+		}
+
+		fieldset 
+		{
+ 			display: block;
+  			margin-left: 2px;
+			margin-right: 2px;
+  			padding-top: 0.35em;
+  			padding-bottom: 0.625em;
+  			padding-left: 0.75em;
+  			padding-right: 0.75em;
+  			width: 280px;
+  			text-align: center;
+  			float:center;
+  		}
+	</style>
+</head>
+<body>
+
+ <div class="Header"> <header> <h2>Header</h2> </header>  </div>
+  
+ 	<div class="leftcolumn"> 
+ 		<div class="leftcolumnHeader">Add employee details</div><br> 
+ 		
+ 		<div class="left">
+ 		Name: <input type="text" name=""><br>
+ 		Experience: <input type="text" name=""><br>
+ 		Technology:
+ 		<br><input type="checkbox" name="Technology" value="Javascript"> Javascript
+ 		<input type="checkbox" name="Technology" value="Javascript"> PHP
+ 		<input type="checkbox" name="Technology" value="Javascript"> Python<br>
+ 		</div><br>
+
+ 		<div class="right">
+ 		Last Edu. :<br>
+
+ 			<input type="radio" name="Edu" value"B.E">B.E
+ 			<input type="radio" name="Edu" value"M.E">M.E
+ 			<input type="radio" name="Edu" value"BCA">BCA<br>
+
+
+ 			<fieldset>
+    		<legend>Contact Detail:</legend>
+    		Skype: <input type="text"><br>
+    		Email: <input type="text"><br>
+    		Phone: <input type="text">
+  		</fieldset>
+
+ 		</div>
+
+ 		<div ><button type="button" float:center; > Add details</button></div>
+
+ 	</div>
+ 	
+ 	<div class="rightcolumn"> 
+ 		<div class="rightcolumnheader"> Notice board</div>
+ 		Part-1
+ 			<ol type="I">
+ 				<li>Sub part 1</li>
+ 				<li>Sub part 2</li>
+ 				<li>Sub part 3</li>
+ 			</ol>
+		part-2
+			<ol type="a">
+			<li>Sub part 2-1</li>
+			<li>Sub part 2-2</li>
+			<li>Sub part 2-3</li>
+			</ol>
+	</div>
+</body>
+</html>
