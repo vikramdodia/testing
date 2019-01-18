@@ -1,0 +1,7 @@
+.backgroung{
+  background-image: url(/assets/Natural1.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+  background-size: cover;
+}
